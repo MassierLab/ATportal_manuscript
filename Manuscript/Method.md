@@ -48,7 +48,7 @@ LC-MS/MS analysis 500 ng of peptides was performed on an Orbitrap Exploris 480 (
 DIA raw files were analyzed using Spectronaut software (v. 18.4.231017.55695, developed by Biognosys AG in Schlieren, Switzerland) with directDIA and searched against the Uniprot human databases: UP000005640_9606 and UP000005640_9606_additional with standard processing parameters (trypsin cleavage with a peptide length ranging from 7 to 52 amino acids, two missed cleavages). Fixed modification settings included carbamidomethylation, variable modifications were methionine oxidation and N-terminal acetylation. The analysis specified a minimum of 3 and a maximum of 6 Best N Fragment ions per peptide. For filtering and quality control, a precursor and protein q-value cutoff of 1% was applied.
 
 <p align="center" width="100%">
-    <img src="https://raw.githubusercontent.com/MassierLab/ATportal_manuscript/main/Manuscript/data_proseccing_proteomics.png" height="400"  alt="Data Processing Proteomics Diagram">
+    <img src="https://raw.githubusercontent.com/MassierLab/ATportal_manuscript/main/Manuscript/data_processing_proteomics.png" height="400"  alt="Data Processing Proteomics Diagram">
 </p>
 
 
