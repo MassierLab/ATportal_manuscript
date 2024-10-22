@@ -57,6 +57,11 @@ DIA raw files were analyzed using Spectronaut software (v. 18.4.231017.55695, de
 All analysis was conducted in the R statistical computing environment v.4.2.3.R. Before analysis, contaminants and reverse decoy database hits were excluded. Proteins present in less that 25 samples and 5 samples not meeting quality control criteria were excluded from further analysis. To identify blood contamination, single cell cluster markers were exported from the portal (adipose tissue markers) and the list provided by Geyer et al.<sup>11</sup> (blood origin markers) was downloaded. A spearman’s correlation matrix was created for the protein expression of those markers, flowed by ward.D2 hierarchical clustering. Clusters with proteins with high positive correlation with one group and high negative correlation with the other group were used to create a quality control protein list (Table S2). This list was correlated with the proteins present in the data set, and hierarchical clustering was able to pinpoint a distinct cluster of blood contaminants that was removed from further analysis. The remaining proteins were normalized using variance stabilizing normalization. Differential protein expression was examined using two-way Anova with FDR p-value adjustment. Pathway analysis was conducted using the PathfindeR package and data from MSigDB and IntAct databases, while GO enrichment was performed using ClusterProfiler. All plots were generated using ggplot2, with the exception of clustered heatmaps that were visualised using pheatmap.
 
 
+<p align="center" width="100%">
+    <img src="https://raw.githubusercontent.com/MassierLab/ATportal_manuscript/main/Manuscript/heat_1.png" style="height: 330px; margin: 20px;" alt="Heatmap 1">
+    <img src="https://raw.githubusercontent.com/MassierLab/ATportal_manuscript/main/Manuscript/heat_2.png" style="height: 330px; margin: 20px;" alt="Heatmap 2">
+</p>
+
 ## Reference
 1.	Bäckdahl, J. et al. Spatial mapping reveals human adipocyte subpopulations with distinct sensitivities to insulin. Cell Metab 33, 1869-1882.e6 (2021). 
 
