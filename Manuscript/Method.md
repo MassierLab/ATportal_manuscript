@@ -9,6 +9,9 @@ Gencode v43<sup>3</sup> and FANTOM6<sup>5</sup> were obtained and merged to gene
 <p align="center" width="100%">
     <img src="https://raw.githubusercontent.com/MassierLab/ATportal_manuscript/main/Manuscript/annotation.png" height="200"  alt="Annotation Diagram">
 </p>
+<em>Figure 1. Example visualizations for improved and refined annotations in the case of wrong annotations, missing items, extra items and partially correct annotations</em>
+
+
 
 ## Processing of RNA-seq data
 
@@ -17,6 +20,7 @@ For RNA-seq datasets, raw fastq files were mapped to hg38. Mapped reads were the
 <p align="center" width="100%">
     <img src="https://raw.githubusercontent.com/MassierLab/ATportal_manuscript/main/Manuscript/data_proseccing_transcriptomics.png" height="400"  alt="Data Processing Transcriptomics Diagram">
 </p>
+<em>Figure 2. Overview about the re-processing of included transcriptome data sets</em>
 
 
 
@@ -50,6 +54,8 @@ DIA raw files were analyzed using Spectronaut software (v. 18.4.231017.55695, de
 <p align="center" width="100%">
     <img src="https://raw.githubusercontent.com/MassierLab/ATportal_manuscript/main/Manuscript/data_processing_proteomics.png" height="400"  alt="Data Processing Proteomics Diagram">
 </p>
+<em>Figure 3. Overview of the analysis of proteomics data sets</em>
+
 
 
 ### Data analysis
@@ -61,6 +67,9 @@ All analysis was conducted in the R statistical computing environment v.4.2.3.R.
     <img src="https://raw.githubusercontent.com/MassierLab/ATportal_manuscript/main/Manuscript/heat_1.png" style="height: 330px; margin: 20px;" alt="Heatmap 1">
     <img src="https://raw.githubusercontent.com/MassierLab/ATportal_manuscript/main/Manuscript/heat_2.png" style="height: 330px; margin: 20px;" alt="Heatmap 2">
 </p>
+<em>Figure 4: Left: hierarchical clustering or spearman’s rho correlation between proteins with known blood cell origin and cluster markers derived from single-cell analysis of adipose tissue samples used to create a subset of quality control markers. Right: hierarchical clustering or spearman’s rho correlation between quality control markers and all the proteins in the data set is used to identify blood contaminants.</em>
+
+
 
 ## Reference
 1.	Bäckdahl, J. et al. Spatial mapping reveals human adipocyte subpopulations with distinct sensitivities to insulin. Cell Metab 33, 1869-1882.e6 (2021). 
