@@ -15,7 +15,7 @@ Gencode v43<sup>3</sup> and FANTOM6<sup>5</sup> were obtained and merged to gene
 For RNA-seq datasets, raw fastq files were mapped to hg38. Mapped reads were then counted by using HTSeq v2.0.3<sup>9</sup> to generate expression matrices. If raw data was not available, matrices were directly downloaded from GEO, and alias gene names were converted to the gene names used in the Gencode and FANTOM6 annotations. Expression values were quantified as reads per million (RPM). Single cell and spatial data in the portal is presented as in our recent publications<sup>1,2</sup>, however, we updated gene alias information as described above. and recalculated marker genes for each cluster using the FindMarkers function in Seurat v 4.3.0<sup>10</sup>.
 
 <p align="center" width="100%">
-    <img src="https://raw.githubusercontent.com/MassierLab/ATportal_manuscript/main/Manuscript/data_proseccing.png" height="400"  alt="Data Processing Diagram">
+    <img src="https://raw.githubusercontent.com/MassierLab/ATportal_manuscript/main/Manuscript/data_proseccing——transcriptomics.png" height="400"  alt="Data Processing Diagram">
 </p>
 
 
