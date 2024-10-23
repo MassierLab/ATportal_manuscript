@@ -94,4 +94,4 @@ All analysis was conducted in the R statistical computing environment v.4.2.3.R.
 
 11.	Geyer, P. E. et al. Plasma Proteome Profiling to detect and avoid sample-related biases in biomarker studies. EMBO Mol Med 11, e10427 (2019).
 
-12.	Wu, T. et al. clusterProfiler 4.0: A universal enrichment tool for interpreting omics data. Innovation (Cambridge (Mass.)) 2, 100141 (2021).
+12.	Wu, T. et al. clusterProfiler 4.0: A universal enrichment tool for interpreting omics data. The Innovation 2, 100141 (2021).
