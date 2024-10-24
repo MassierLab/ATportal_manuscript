@@ -4,5 +4,6 @@ This repository contains a detailed description of the data collection and metho
 Content
 
 [Methods](https://github.com/MassierLab/ATportal_manuscript/blob/main/Manuscript/Method.md)
+[Data sets](https://github.com/MassierLab/ATportal_manuscript/blob/main/Manuscript/Table1_cohort.md)
 
 Correspondence to Lucas Massier (lucas.massier@helmholtz-munich.de), Niklas Mejhert (niklas.mejhert@ki.se) and/or Mikael Rydén (mikael.ryden@ki.se).
